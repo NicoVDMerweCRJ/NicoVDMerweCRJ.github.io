@@ -2,7 +2,7 @@
 
 Welcome to my Blog. I am a student studing Creative Application Development at Falmouth Universaty.
 
-###Categories
+### Categories
 
 [About Me](https://github.com/NicoVDMerweCRJ/MyCRJ/edit/master/AboutMe.md)
 
