@@ -1,10 +1,14 @@
-## Welcome to GitHub Pages
+## Welcome to my blog page
 
-You can use the [editor on GitHub](https://github.com/NicoVDMerweCRJ/NicoVDMerweCRJ.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Welcome to my Blog. I am a student studing Creative Application Development at Falmouth Universaty.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+###Categories
 
-### Markdown
+[About Me](https://github.com/NicoVDMerweCRJ/MyCRJ/edit/master/AboutMe.md)
+
+[App Development Synergies](https://github.com/NicoVDMerweCRJ/MyCRJ/edit/master/AppDevSyn.md)
+
+## Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
