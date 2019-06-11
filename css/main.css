@@ -53,10 +53,3 @@ ul.posts li {
 	background: #615f8b;
 	color: #fff;
 }
-/* Add a rollover background colour but keep the text white */
-.button:hover,
-.button:focus,
-.button:active {
-	background: #b7b6cd;
-	color: #fff;
-}
