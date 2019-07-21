@@ -1,61 +1,312 @@
 <!DOCTYPE HTML>
-<!--
-	CRJ of Nico van der Merwe
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
 <html>
 	<head>
-		<title>Home</title>
+		<title>App Development Synergies</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
-	<body>
+	<body class="subpage">
+
 		<!-- Header -->
-			<header id="header" class="alt">
-				<div class="logo"><a href="index.html">CRJ Blogs <span>by Nico van der Merwe</span></a></div>
+			<header id="header">
+				<div class="logo"><a href="index.html">App Development Synergies <span>Week 1</span></a></div>
 				<a href="#menu">Menu</a>
 			</header>
-		
+
 		<!-- Nav -->
 			<nav id="menu">
 				<ul class="links">
+					<li><a href="index.html">Home</a></li>
 					<li><a href="aboutme.html">About Me</a></li>
-					<li><a href="appdevelopmentsynergies.html">App Development Synergies</a></li>
 				</ul>
 			</nav>
-		<!-- Banner -->
-			<section class="banner full">				
-				<article>
-					<img src="images/slide02.jpg" alt="" />
-					<div class="inner">
-						<header>
-							<p>Responses to what I have seen, read or watched</p>
-							<h2>Research</h2>
-						</header>
-					</div>
-				</article>
-				<article>
-					<img src="images/slide03.jpg"  alt="" />
-					<div class="inner">
-						<header>
-							<p>Documenting the development of my research projects and assignments</p>
-							<h2>Development</h2>
-						</header>
-					</div>
-				</article>
-				<article>
-					<img src="images/slide04.jpg"  alt="" />
-					<div class="inner">
-						<header>
-							<p>Log my weekly tasks and activities</p>
-							<h2>Coursework</h2>
-						</header>
-					</div>										
-				</article>			
+
+		<!-- One -->
+			<section id="One" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<p>Module 1</p>
+						<h2>App Development Synergies</h2>
+						<h3>Week 1</h3>
+					</header>
+				</div>
 			</section>
-	
+
+		<!-- Intro -->
+			<div id="Intro" class="container">
+				<!-- Elements -->
+					<p></p>
+					<h2 id="elements">Welcome</h2>
+					<div class="row 200%">
+						<div class="6u 12u$(medium)">
+							<!-- Text stuff -->
+								<h3>App Development Synergies Module Weeks</h3>
+								<p>Select a week from the list below and view my Contextual research, Project development and Coursework associated with it.</p>	
+							<h4>WEEKS 1-12</h4>							
+							<ul>
+								<a href="#Week1"><li>Week 1 : Interduction</li></a>
+								<a href="#Week2"><li>Week 2 : Platforms and Tools</li></a>	
+								<a href="#Week3"><li>Week 3 : App Jam</li></a>					
+								<a href="#Week4"><li>Week 4 : Reflection</li></a>								
+								<a href="#Week5"><li>Week 5 : Types of App</li></a>							
+								<li>Week 6 : Creative App Commerce</li>								
+								<li>Week 7 : Audience Research</li>								
+								<li>Week 8 : Creativity</li>								
+								<li>Week 9 : Emerging Tech</li>								
+								<li>Week 10 : Who Else is Making Apps?</li>								
+								<li>Week 11 : Project Management</li>								
+								<li>Week 12 : What Next?</li>
+							</ul>	
+						</div>
+					</div>
+			</div>
+		
+		<!-- Week 1 -->
+			<div id="Week1" class="container">
+				<!-- Elements -->					
+					<h2>Week 1: Interduction</h2>
+					
+					<h3><u>Contextual Research</u></h4>
+					<p><span class="image left"><img src="App Development Synergies/Week 1/Images/UnrealLogo.jpg" alt="" /></span>My research into my project idea posted for week 1 was centred around the Unreal Engine and how to integrate AR Core features in an application. I found a QuickStart guide to ARCore at <a href="https://developers.google.com/ar/develop/unreal/quickstart"> Unreal Quickstart</a> and followed the guide lines provided by Goolge and the team at Unreal.</p>							
+					<p>My findings where that it was simple to set up the Plugin inside the unreal environment and load a template to play around with and deploy to my testing device. The setup for mobile inside Unreal was a straightforward setup and deployment to mobile was easy and quick.</p>
+					<p>There have been huge improvements in deployment times in the last two releases of the unreal engine. Packaging and deployment have been a huge focus for Epic following the success of Fortnite on mobile and they have started integrating the technology used to optimize and deploy for mobile into the engine and huge feature updates and improvements on mobile is showing.</p>							
+					<p>I choose to run the application on Vulkan due to the strides made in frame rates and rendering by the open source 3D graphics and computing API. I tried to run my AR core with Vulkan and hit my first barrier in my application design. Vulkan does not support AR rendering as of yet.</p>								
+					<p>I’m am going to use the ASTC 3.1 format to compress my content as it does the highest quality compression and retains a lot of the quality while doing so. I refreshed my memory on the basics of unreal mobile development and different compression strategies for my files by viewing a live stream that Unreal hosted: <a href="https://www.youtube.com/watch?v=cRhjTD7FIuI"> Unreal Stream</a> </p>
+					<p>I really appreciated how this week’s exercise has made me think a bit outside of what I usually do. It was challenging and getting the blog up and running on github pages was also a great experience in setting up and I see the value of git hub beyond just hosting code repositories, but seeing the potential of hosting a blog or examples of work done on a domain of your choice. </p>							
+					<p>I found out that Mobile has a limit of 75 on Unreal Engine 4 deployment as confirmed in the forums located at: <a href="https://answers.unrealengine.com/questions/482412/want-to-increase-bone-limit-on-mobile-more-than-75.html"> answers.unrealengine.com</a>. It can be increased apparently, but then older devices might not recognize the structure and fail to display the character at all.</p>
+											
+					<h3><u>Project Development</u></h4>
+					<p><span class="image left"><img src="App Development Synergies/Week 1/Images/ARCore.png" alt="" /></span>I will use the Unreal 4.22 engine to design the application and utilize blueprint and C++ for development. I choose Android (26 – Oreo and up) as my platform of choice for this project as it supports Vulkan and Google ARcore which are two core plugins/tools I plan to use. My compiler will be Visual Studio 2018 and all code will be compiled from source code of the Unreal Engine as it will be required during plugin integration.</p>
+					<p>I want to integrate AR into the application and provide a feature where the user can place the fish tank on any surface in a real-world location and then interact with your fish. I will implement this feature using Google ARcore technology that comes as a plugin with the Unreal Engine.</p>
+					<p>Assets needed are created using a combination of Blender and GIMP. Both Blender and gimp are free to use open source and will cover all my animation, modelling and texturing needs for my assets. I will be using only a few assets at first as the focus will be on interaction and AR rather then content at the start of development. 
+Animation will be physics driven for some objects so only basic rigging and bone structures will be required. The two fish will need to be rigged and skinned for animation and a bone structure of 15 bones will be used. Mobile has a limit of 75 on Unreal Engine 4 deployment, but this should not be a issue as assets won’t benefit from a complex one structure for animation.
+Textures will be 2k resolution and all materials are developed in Unreal Engine using the material editor and blueprinting.</p>
+					<p> All design documents are located to view in the link below:
+					<p></p>
+					<a href="https://github.com/NicoVDMerweCRJ/NicoVDMerweCRJ.github.io/tree/master/App%20Development%20Synergies/Week%201/Documents" class="button">GitHub Link</a>
+					<p></p>
+				
+					<h3><u>Coursework</u></h4>
+					<p><span class="image left"><img src="App Development Synergies/Week 1/Images/UIMainMenuDesignFlowChart.jpg" alt="" /></span>I have an idea for an application to that I feel fits into the theme of ”As long as we have each other, we will never run out of problems”.</p>	
+					<p>The application will tell the story of two fish living together in a fish tank. You have control of one fish called Bob and need to stay alive for as long as you can while challenges arise throughout your day. The entire application takes place in one fish tank so minimal assets are required. The focus will be on your interactions with the fish your control.</p>	
+					<p>During the day Steve will be a burden and at night an ally. I wanted to tie the application into the theme “As long as we have each other, we will never run out of problems” by showing how two fish live in a tank. I found the inspiration for my design after staring at my fish tank I have at home. I have 3 fish in the tank and they always fight during the day but huddle up at night. As much as they have one another and need each other to survive, they will always have problems.</p>	 
+					<p>I really appreciated how this week’s exercise has made me think a bit outside of what I usually do. It was challenging and getting the blog up and running on github pages was also a great experience in setting up and I see the value of git hub beyond just hosting code repositories, but seeing the potential of hosting a blog or examples of work done on a domain of your choice.</p>
+					<p>Linked under Project Development are links to my Week 1 documents github folder that contains my Creative Piece documents that outline the design of my application.</p>
+		
+					<h3><u>Refrences</u></h4>				
+					<li>Unreal Engine, n.d. Logo a <a href="https://www.unrealengine.com/en-US/branding"> www.unrealengine.com/en-US/branding</a>.</li>
+					<li>Google ARcore, n.d. Logo, by Daniel Golightly May 08, 2018, 5:15pm <a href="https://www.androidheadlines.com/2018/05/arcore-update-allows-shared-ar-experiences.html"> www.androidheadlines.com/2018/05/arcore-update-allows-shared-ar-experiences.html</a>.</li>						
+					<p></p>	
+					<a href="#Intro"><button type="button">Back To Top</button></a>
+					<p></p>			
+		</div>
+				
+		<!-- Week 2 -->
+			<div id="Week2" class="container">
+				<!-- Elements -->
+					<p></p>	
+					<p></p>	
+					<h2>Week 2: Platforms and Tools</h2>
+					
+					<h3><u>Contextual Research</u></h3>
+					<h4><li>UE4 and mobile development</li></h4>			
+					<p>Unreal and its mobile development environment has made very big strides the past few years. After the release of Fortnite we saw the release of Unreal Engine 4.20 which brought with it over 100 mobile optimizations tools as well as the ability to optimize gameplay across platforms as stated by Tim Slager [reference] T.S. 2018. Exploring Unreal Engine 420’s Mobile Optimizations. August 27. Exploring Unreal Engine 420’s Mobile Optimizations. [Online]. [10 June 2019]. Available from: <a href="https://www.unrealengine.com/en-US/tech-blog/exploring-unreal-engine-4-20-s-mobile-optimizations">www.unrealengine.com/en-US/tech-blog/exploring-unreal-engine-4-20-s-mobile-optimizations</a></p>
+					<p>The blog also includes a Unreal Live Training stream that discuss the numerous optimizations, features and stability improvements the Unreal team has made to the engine and mobile platforms supported while also highlighting how Epic leveraged these tools to ship Fortnite on iOS and Android and overcome technical challenges such as memory, performance and battery life for the application.</p>
+					
+					<h4><li>Repositories</li></h4>
+					<p><span class="image left"><img src="App Development Synergies/Week 2/Images/perforce-logo.png" alt="" /></span>When researching into repositories I was looking for a solution that can integrate well into the Unreal Engine and handle big file transfers like textures and .fbx that will be included in my project. The two that stood out where GitHub and Perforce.</p>
+					<p>GitHub and perforce have many differences that set them apart from one another.</p>
+					<p>GitHub has a distributed Git model which allows developers to download the source code along with a full version history to their local machine where they can make commits, diffs and merge code fast. Each developer has their own copy of the repository which can be a security risk at big developer companies and make it hard to manage the application data. Typically, the repositories security levels of the project are assigned at a repo level to employees and the projects are broken into several different branches where teams end up dealing with cross repository dependencies that could be a nightmare if not controlled correctly.</p>
+					<p>Perforce Is Centralized has a centralized model that centres around storing everything in one place ensuring developers always have the latest version. All commits from developers, no matter where they sit across the world are done to the same server where the project is located. This provides improved auditability, traceability and communication because checked out work is easily visible to other developers on the team [Reference] Perforce, P. 2019. Git vs Perforce. April 11. How to Choose. [Online]. [12 June 2019]. Available from: <a href="https://www.perforce.com/blog/vcs/git-vs-perforce-how-choose-and-when-use-both">www.perforce.com/blog/vcs/git-vs-perforce-how-choose-and-when-use-both</a></p>
+				
+					<h4><li>AR Images and Objects</li></h4>
+					<p><span class="image left"><img src="App Development Synergies/Week 2/Images/ARImage.jpeg" alt=""/></span>I was researching deeper into AR this week and wanted to integrate Augmented images and objects into the application as well. I found that it is possible with Google ARCore and Unreal engine and is quite simple to do as well. Unreal can take images the user loaded into the engine and turn them into smart images the camera will recognize, and actions can be executed on recognition of the images. This gives me the ability to make something interesting in that I would be able to create a companion application with the original that would recognize images and cards that could be used as bonus content or power ups by the user. I found documentation on Augmented Images and how to integrate the feature into Unreal Engine at [Reference] Arcore, G.A. 2019. Augmented Images developer guide for Unreal. February 28. Using Augmented Images. [Online]. [13 June 2019]. Available from: <a href="https://developers.google.com/ar/develop/unreal/augmented-images/guide">https://developers.google.com/ar/develop/unreal/augmented-images/guide</a></p>
+								
+					<h3><u>Project Development</u></h4>
+					<p>Setting up the environment using Unreal and Android works was quick and easy as all SDK downloads required were included with the engine inside the installation directory Epic Games\UE_4.22\Engine\Extras\AndroidWorks.  I continued to get a project template for AR up and running and did my first build for Android mobile on a Galaxy S7 Edge and it worked perfectly without any issues.</p>
+					<p>I have also continued to build out a basic fish tank and got it placed on a flat surface and had the AR track the object and its location. This was simple to execute with Unreal Engine 4.22 and can see the strides they have made when it comes to mobile development.</p> 
+					<p>I decided to load in one image a painting into the art application and see if I could convert it into an Augmented Image. It too wasn’t complicated, and the image was recognized as soon as it came into view of the camera on my mobile device.</p> 
+					<p>My development environment is now set up with AR functioning as intended and Unreal deploying to mobile successfully. I am starting on my basic prototype of the application and creating assets and basic blueprint functionality that would provide the base of my application. I have uploaded my project to my git repository as source control with GitHub is integrated and working with Unreal Engine as well.</p>
+				
+					<h3><u>Coursework</u></h4>
+					<p>I started setting up my development environments and SDK’s to start working on a prototype of the application I want to build. Using the Unreal Engine and developing for mobile Android specifically, I needed to setup the SDK’s and configure my environment inside Unreal engine to be mobile ready and have my repositories linked to my GitHub account.</p>
+					<p>A big discussion the past week was Platform and Tools. What will be used and why? I have decided to stick to the Unreal Engine and Mobile Android development using ARCore from google. 
+					<p>The other topic that came up the past week was Unity vs Unreal. Which engine is the one to use for the project going forward? I have worked on Unity for many years before and work with Unreal Engine atm in my professional career. This has given me a unique outlook on the engines and how they compare with one another.</p>
+					<p>I have chosen to build my application on the Unreal Engine due to the numerous new tools and advancements made in the mobile space. Unity has been the go-to engine for mobile the past few years and has an amazing workflow but can sometimes lack when it comes to quality of light used in scenes/levels. I want to build my knowledge of Unreal and use this small application to test and integrate as many of their new features released especially around AR and mobile deployment.</p>
+								
+					<h3><u>Refrences</u></h4>				
+					<li>T.S. 2018. Exploring Unreal Engine 420’s Mobile Optimizations. August 27. Exploring Unreal Engine 420’s Mobile Optimizations. [Online]. [10 June 2019]. Available from: <a href="https://www.unrealengine.com/en-US/tech-blog/exploring-unreal-engine-4-20-s-mobile-optimizations">www.unrealengine.com/en-US/tech-blog/exploring-unreal-engine-4-20-s-mobile-optimizations</a></li>
+					<li>Epic unreal, U.E. 2018. Android Quick Start. July 16. Getting Started. [Online]. [10 June 2019]. Available from: <a href="https://docs.unrealengine.com/en-US/Platforms/Mobile/Android/GettingStarted/index.html">//docs.unrealengine.com/en-US/Platforms/Mobile/Android/GettingStarted/index.html</a></li>						
+					<li>Perforce, P. 2019. Git vs Perforce. April 11. How to Choose. [Online]. [12 June 2019]. Available from: <a href="https://www.perforce.com/blog/vcs/git-vs-perforce-how-choose-and-when-use-both">www.perforce.com/blog/vcs/git-vs-perforce-how-choose-and-when-use-both</a></li>
+					<li>Arcore, G.A. 2019. Augmented Images developer guide for Unreal. February 28. Using Augmented Images. [Online]. [13 June 2019]. Available from: <a href="https://developers.google.com/ar/develop/unreal/augmented-images/guide">developers.google.com/ar/develop/unreal/augmented-images/guide</a></li>
+					<li>Joe Graf, (2018), Texture settings for the image to detect [ONLINE]. Available at: <a href="https://cdn-images-1.medium.com/max/800/1*g9FplUG8VZtmT7VzkH1VTg.jpeg">www.perforce.com/blog/vcs/git-vs-perforce-how-choose-and-when-use-both</a> [Accessed 12 June 2019].</li>	
+					<li>Roberto Crespo, (2015), Perforce: The Good, The Bad, and The Ugly [ONLINE]. Available at: <a href="http://gravtechgames.blogspot.com/2015/03/perforce-good-bad-and-ugly.html">gravtechgames.blogspot.com/2015/03/perforce-good-bad-and-ugly.html </a>[Accessed 12 June 2019].</li>
+				
+					<p></p>
+					<a href="https://github.com/NicoVDMerweCRJ/NicoVDMerweCRJ.github.io/tree/master/App%20Development%20Synergies/Week%202">GitHub Week 2 Link</a>
+					<p></p>
+				
+					<p></p>	
+					<a href="#Intro"><button type="button">Back To Top</button></a>
+					<p></p>			
+		</div>	
+		
+		<!-- Week 3 -->
+			<div id="Week3" class="container">
+				<!-- Elements -->
+					<p></p>	
+					<p></p>	
+					<h2>Week 3: App Jam</h2>
+					<h3>TRAPPED!</h3>
+					<p></p>	
+					<div align="center">
+						<iframe width="760" height="515" src="https://www.youtube.com/embed/SsUUyYhOU6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				
+					<p></p>
+					<p>I wanted to build a maze puzzle game using match two game mechanics that will open doors in the maze for a certain amount of time before closing again and restarting the puzzle. The theme of the App Jam was Guide Opponent Restricted. I added a map of the maze on the walls that act as a guide for the player. That's if they can figure out where they are. The maze is the opponent</p>
+					<p>I used the Unity Engine to build my application due to the engine’s ability to rapid prototype. I was going to use the prefab feature to build out levels rapidly from basic assets created using Blender for models and GIMP for my textures. I build the game to run on the Samsung Gear VR using Android API-26 Oreo and a Samsung Galaxy s7 Edge and utilizing the Oculus SDK included inside Unity.</p>
+					<p>Before I jumped right in and started building the application, I wanted to make sure I time myself and keep an eye on the 42-hour limit of the App Jam. I used the Harvest tool to time my work. It was recommended in last week’s Webinar session by Matthew Wright and it made the process of timing my project very easy. I created a project for the app jam started and stopped the timer as I worked the past week. Everything runs in my browser and there is a free trail available that gives small projects the ability to track time.</p>
+				
+					<p><span class="image left"><img src="App Development Synergies/Week 3/Images/UnityLogo.png" alt=""></span>I started my design on paint, drawing out the map and objects I wanted to place in the maze. I started with 6 different objects, but when down to 4 quickly due to the time constraint on the App Jam. I wanted to make the halls of the maze look very similar and the doors hidden in the walls too make it harder to solve. I used the MainMenu Kit included with Unity to get a basic UI up and going and give the user a way to restart the map if needed or quite to main menu.</p>	
+					<p>I made nine game objects in the end to use in Unity's prefab system and started building different combinations of pieces to place together and form a maze. I utilized C# as my scripting language and VS code as my compiler for Unity. Coding the project went well. Getting done what I needed to was easy as loads of documentation on Unity C# programming is available online. Creating my animations inside unity and using mechanism made my few animations I needed easy to create as I made sure during the asset creation process that my pivots were set correctly.</p>	
+
+					<p><span class="image right"><img src="App Development Synergies/Week 3/Images/Screenshot2.png" alt=""></span>During the development I picked up area’s where I could approve on especially time and scope management. Even though I had the tool to time my time work, I found that my initial planning around time allocation per task was not good due to the scope of what I wanted to achieve. I also found myself refactoring code for long periods of time and struggled on getting the aesthetics done at the end.  I ran out of time to test on GearVR and ended up not porting for VR at all. I did do a build for Android but didn't have enough time to test the application enough to confirm stable frame rates and that all inputs worked correctly.</p>	
+					<p>In the future I need to spend more time on planning my approach. I will need to make sure the objectives I set for myself has enough time set aside to accomplish them and make sure their scope fits the constraint. The correct execution of my small objectives will lead to the completion of my main objective and lead to my vision being executed the way I intended it to be without design, mechanics or platforms being sacrificed to complete the application. I will also need to refresh my programming skills as I fell down some traps around efficiency and script inheritance flow I could have avoided if I planned my approach a lot better.</p>	
+				
+					<p>I ended up achieving my goal of getting prefabs to work for me. I got my prefabs to contain all the scripts and objects needed to make it function as intended with minimal info needed to be assigned in the editor. In the end when I ran out of time, I could place my prefabs inside a level and quickly get it all to run as intended.</p>	
+					<p>I will need to plan better in the future around time and objectives that I want to achieve to make sure I am able to execute my creative vision the way I intend it to be. Planning well within my scope is the key.</p>	
+					
+					<p></p>	
+					<li>Game Download Link: <a href="https://github.com/NicoVDMerweCRJ/NicoVDMerweCRJ.github.io/blob/master/App%20Development%20Synergies/Week%203/AppJamProject/TTAPPED!.rar"> TRAPPED!.zip</a></li>
+					<p></p>	
+				
+					<h3><u>Refrences</u></h3>
+					<li>By Alan Copping, (2019), Unity Logo [ONLINE]. Available at: <a href="https://www.n3rdabl3.com/wp-content/images/uploads/2015/09/unity-logobg-681x383.png">[Accessed 25 June 2019].</a></li>	
+					<li>Unity technologies. 2019. Scripting. Unity3dcom. [Online]. [24 June 2019]. Available from: <a href="https://docs.unity3d.com/Manual/index.html">Unity3d Scripting Manual</a></li>	
+					<p></p>
+				
+					<p></p>	
+					<a href="#Intro"><button type="button">Back To Top</button></a>
+					<p></p>	
+		</div>
+		
+		<!-- Week 4 -->
+			<div id="Week4" class="container">
+				<!-- Elements -->
+					<p></p>	
+					<p></p>	
+					<h2>Week 4: Reflection</h2>
+										
+					<p><span class="image left"><img src="App Development Synergies/Week 4/Images/Agile.png" alt=""></span>This week covered reflection and I looked at how Agile software development principles could have been applied to my app jam application. I have worked in Agile development environments for the past few years and do believe in the practices applied such as scrum and being sprint focused. I have seen amazing new ideas come out of doing sprints as well as solutions to big problems that improved projects greatly. Sprints have given me the opportunity in the past to explore new options and grow my skills and creativity by rapidly prototyping new ideas.</p> 
+					<p>Reading up on agile software development I discovered many methods and ways of applying agile in my correct development. I found two practices I am going to take forward into my upcoming projects to help me achieve my outcomes and goals in both design and development.</p>
+					<p>In Juhani Warsta, Pekka Abrahamsson, Outi Salo and Jussi Ronkainen peer-reviewed academic literature paper on Agile Software Development Methods I stumbled upon an agile practise I found very interesting that would help me think about design more efficiently. In section 3.7 Adaptive Software Development they describe different Agile methods of which I focussed on the section 3.9.2 Pragmatic Programming method. </p>
+					<p>From an agile viewpoint, the Pragmatic Programming methods focus is on incremental, iterative development, rigorous testing, and user-centered design. The approach taken here has a very practical standpoint as they are illustrated by positive and negative examples accompanied by questions and code snippet, where focus is put on withstanding changes that can happen within the industry or development process by designing software with a focus on change.</p>
+					<p>Pragmatic programming does not have processes, phases, distinct roles or work products. The philosophy is defined in six points, which could be stated roughly as:</p>
+					<li>Take responsibility for what you do and think solutions instead of excuses.</li>
+					<li>Don’t put up with bad design or coding. Fix bugs and issues as you see them or plan them to be fixed very soon.</li>  
+					<li>Take an active role in introducing change where you feel it is necessary.</li> 
+					<li>Make applications that satisfies your customer/creative goals but know when to stop.</li>
+					<li>Constantly broaden your knowledge.</li> 
+					<li>Always improve your communication skills.</li>
+					<p></p>	
+					<p>My second source is a peer-reviewed academic literature case study by William Herman Morkel Theunissen on Agile software development where I focused on section 2.4.1 Extreme programming (XP). </p>
+					<p>XP is an agile methodology that has the software team comply with well-defined and well circumscribed processes when developing software. These values need to be met before their development methodology is classifiable as XP. The most important of these processes are the four-core values, principles and characteristics XP is based on. The XP agile methodology started developing due to problems faced within software development in the form of applications not meeting the customer expectations, reduced applicability of delivered software, the inability to meet deadlines and schedules.</p>
+					<p>XP may be regarded as the most published agile methodology It is based on a series of values and practices that are applied to design and quick iterations of sprints.</p>
+					<p>The four core values of XP are:</p>
+					<li>Communication: This involves keeping everyone on the project informed on everything regarding the project.</li>
+					<li>Simplicity: To always make use of the simplest solution that can work.</li>
+					<li>Feedback: Decrease iteration time between the response of doing something and getting the result. Examples of this are the time between asking a question and getting an answer, the time spent on implementing new features and confirming its success using well defined automated test cases.</li>
+					<li>Courage: This refers to one’s ability to make those difficult decisions that need to be made and correct the project’s direction if needed.</li>
+					<p></p>	
+					<p>The following practices characterise XP:</p>
+					<li>The planning game: Always plan the scope and objectives for the next release.</li>
+					<li>Small releases: Release the application iteratively in short cycles as updates.</li>
+					<li>Metaphor: Use simple stories to act as guidelines for the project team on how the new feature functions and how to implement it correctly.</li>
+					<li>Simple design: Always make sure the application is as simple as possible at any given moment of development.</li>
+					<li>Testing: Continuous testing of code should take place. This could be unit and feature test cases that are created by the client in conjunction with developers, to ensure that the application always works as intended.</li>
+					<li>Refactoring: Continuously simplify and restructure the system without changing its behaviour. The purpose is to improve the quality of code. </li>
+					<li>Pair programming: Develop code using two programmers at one machine. </li>
+					<li>Collective ownership: Code always belongs to everyone on the team and can be changed by anyone as needed. This does not mean they got to push the code to the latest version but provides an environment for growth and learning to take place. </li>
+					<li>Continuous integration: Always integrate features as it is completed into the application. </li>
+					<li>40-hour week: Project team members working hours are limited to only 40 hours a week. It is believed that this increases productivity and moral among developers. </li>
+					<li>On-site customer: A user or client who can answer and address questions as they arise from design or development should be made a part of the team when possible.</li>
+					<li>Coding standards: Code is written according to a selected standard to ensure uniformness and optimal communication.</li>
+					<p></p>	
+					<h3>Reflecting</h3>
+					<p><span class="image left"><img src="App Development Synergies/Week 4/Images/Pathfinding.jpg" alt=""></span>Reflecting upon the App jam of week three I noticed that I did apply some of the practices involved in Agile development.  I found the practice of Extreme programming (XP) as I applied the planning game and simple design characteristics during my design phase and refactoring continuous integration along with coding standards in my development phase of the app jam. As issues in the application arose, I found myself using Pragmatic programming methods as thinking solutions instead of excuses, Fix bugs and issues as you see them, introducing change where you feel it is necessary to help me face the barriers ahead and overcome them.			
+					<p>During the app jam I did practise Agile methods but didn’t always focus on all the characteristics equally and didn’t see how it all comes together. In my continuation of the app jam project across the study block I will apply Extreme programming core values when thinking about design and creating new features for my applications as it grows in complexity. 			
+					<p>Applying Simplicity together with the Feedback to make sure I keep designs simple and achievable will help me keep every goal within scope and help me keep to my time allocated as well as decrease the response of doing something and getting the result. Applying these practices will need to include Courage as I will need to make difficult decisions on project direction and weather doing a feature is worth it. Continues iterations also is a characteristic I will apply as I push code up and update the application as new features are completed. Refactoring code as I go along and not lingering on this characteristic too long as it was what took up most of my time during the app jam although the features worked.
+					<p>Pragmatic programming six points philosophy will be of value when I am in the developing phase of the project as problems and barriers can arise that require quick thinking. By having a “think solutions instead of excuses” mind set will help me see through the barriers and seek solutions by Constantly broaden my knowledge and finding solutions to the problems that will arise. I will also take a more active role in introducing change where I feel it is necessary using the new knowledge gained from finding solutions and broadening my knowledge of the issue of new feature. 			
+					<p>When I see an issue, I will need to either fix it immediately or log the bug on Trello to be fixed sooner then later. Not putting up with bad design and coding will need to be implemented as a standard to avoid a pile up of issues and fixes breaking design going forward. 			
+					<p>I will also need to know when to stop. Making applications that satisfies my creative goals but is also within my scope is the key. Knowing when to stop combined with Extreme programming core value Simplicity will keep my creative vision and scope aligned to help produce applications that meet my goals and is build as intended from design. Even if ideas end up failing its not failing at all using Agile software practices. The questions asked and the answers found builds a successful application going forward. 
+					<p>My progress so far with my AR application has been slow due to the app jam. I learned so much with the Week 3 App jam and especially combining it with this week’s Agile practice. It highlighted how I could improve my approach and make sure I don’t fall in the same traps as before. 
+					<p>The current status is that I have completed my first objectives set out that included getting the application building for android using the unreal engine and making the AR recognize images and flat surfaces. I have also built my two fish and have them rigged and a small amount of animation applied. I have also built a fish tank and applied glass and water shaders that has been tested on mobile platform. 			
+					<p>I have lowered the scope of the project due to what I have learned from the app jam and this week’s agile methodologies and have decided to apply SMART principles to solve the small goals I have set out for myself. I have decided to go from two fish to one and make sure all features work on it before even looking at a second. My next goal is to implement the GUI and be able to feed the fish and adjust the health status that is displayed to the user.			
+					<p>The specific goal set out with this feature is to have the fish recognize there is food in the tank and to go eat it. This is accomplished by having the fish know where the target is located by using path finding and destroying the object once consumed by the fish triggering +1 on hunger displayed on the GUI. 
+					<p>I can achieve this goal by applying simple a* pathfinding, making the food the objective for the fish. A* pathfinding solutions are widely available like the one provided by Monokkel, M. 2014. My A* Pathfinding blueprint or: How Not to Build a Blueprint. 8th August. Unreal Engine Forums. [Online]. [27 June 2019]. Available from: https://forums.unrealengine.com/community/community-content-tools-and-tutorials/12979-my-a-pathfinding-blueprint-or-how-not-to-build-a-blueprint. 			
+					<p>The food itself will be physics driven as it falls to the floor of the tank, but I will leave them in place for now as my main focus is to get the pathfinding going. I will make all this possible by unitizing Unreal engine blueprints for rapid prototyping. This will be a week sprint for me to achieve this goal and I feel like it falls within my skill level as I have done things similar before.			
+					<p>Having this feature completed would help my AR fish tank simulation closer to being like the real thing as fish need to eat right. Completing this goal will help me start the AI phase of the application and plan for future integrations that need to take place around behaviour. It will lay a ground base for me to work off going forward and a start to my proof of concept. 			
+					<p>Giving myself a week to implement the feature is reasonable. I will be implementing the blueprint to my character in three days and spend another day or two building out to mobile and testing. I also want to leave me some time to refract code if needed and make sure everything upholds to standards and I will be pushing this up at the end of the week and applying it to my project. I left one day apart for me to reflect on the feature and how I can do things better going forward.			
+				
+				
+				<h3><u>Refrences</u></h3>
+					<li>Juhani Warsta, Pekka Abrahamsson, Outi Salo, Jussi Ronkainen, J., 2002. Agile Software Development Methods. Agile Software Development Methods: Review and Analysis, [Online]. 1, 72, 88. Available at: <a href="https://pdfs.semanticscholar.org/048b/c875df549a2d1fda6d34e98fab5f72121028.pdf">https://pdfs.semanticscholar.org/048b/c875df549a2d1fda6d34e98fab5f72121028.pdf</a>[Accessed 29 June 2019].</li>	
+					<li>Herman Morkel Theunissen, W., 2003. A case-study based assessment of Agile software development. A case-study based assessment of Agile software development, [Online]. 2.4, 22. Available at: <a href="https://pdfs.semanticscholar.org/b251/380a292baa020608613a2f1e8d5e293c2de5.pdf">https://pdfs.semanticscholar.org/b251/380a292baa020608613a2f1e8d5e293c2de5.pdf </a>[Accessed 29 June 2019].	</li>
+				<p></p>				
+					<p></p>	
+					<a href="#Intro"><button type="button">Back To Top</button></a>
+					<p></p>	
+		</div>
+		
+		<!-- Week 5 -->
+			<div id="Week5" class="container">
+				<!-- Elements -->
+					<p></p>	
+					<p></p>	
+					<h2>Week 5: Types of App</h2>
+					
+					<h3><u>Corsework</u></h3>
+					<h4>Rethink how things are done!</h4>			
+					<p>This week I completed my pathfinding for my fish and made a particle effect to solve my food issue as well. I learned from previous practices in the App Jam that I need to run my project on my device more often and started testing on my Android s7 edge and it all worked perfectly. I need to work on my design and time management as I have learned from my personal case study and the app jam, so I stopped everything I was doing and looked at my planning and design again to improve how I do things and why. I created a Trello board for me to manage my goals and time better and looked at what I wanted to achieve and how to get there being agile.</p>
+					<p>I also looked at where my application fits into the many types of apps found in the marketplaces so that I know where my idea fits in and that I am on par with what I intended to build. I see my app as gamification. Although my current design isn’t final and the features I am working on currently can be used in many different designs. I have always seen my application being built around using AR technologies that the Unreal game engine provide to solve a real-world problem by educating users and making them experience the world around them in new interactive ways.</p>
+					<p>I need to go back and make sure things are on the right path and rethink scope and design. I want to have all my trello boards set with goals and ideas that fall under the new agile principles I have learned about in <a href="#Week4"><li>Week 4 : Reflection</a>.</p>
+					<p>I also want to have my design to include flowcharts of how code is implemented and the tasks I will need to complete to achieve this.</p>
+					
+					<p>I have completed my draft copy of my findings that will be presented next week as my personal case study on agile and time management objectives and failures I had during the App Jam.</p>
+					<li>Download Link: <a href="https://github.com/NicoVDMerweCRJ/NicoVDMerweCRJ.github.io/blob/master/App%20Development%20Synergies/Week%205/Documents/Personal%20Case%20Study%20Draft.docx"> Personal Case Study Draft</a></li>
+					<p></p>	
+					<a href="#Intro"><button type="button">Back To Top</button></a>
+					<p></p>	
+		</div>
+		
+		<!-- Week 6 -->
+			<div id="Week5" class="container">
+				<!-- Elements -->
+					<p></p>	
+					<p></p>	
+					<h2>Week 6: Creative App Commerce</h2>
+					
+					<h3><u>Sprint Goals</u></h3>
+					<h4>A new direction</h4>			
+					<p>My sprint goals have mostly consisted development tasks for of my AR application prototype, but after the personal case study I started improving my approach on projects and management by using tools like trello to manage my project and study tasks. I am happy with the approach I took in creating my boards on trello for both the App Development Synergies module and my AR project. I started populating the boards with tasks and goals that I planned out and felt the impact on time management immediately as I had clear goals now laid out and I knew what to achieve.</p>
+					<p>I could have included and tracked my research in my trello boards as I found myself finding tutorials that where relevant to Unreal Engine AR Blueprints and not documenting the links and made it hard to return to the tutorial later to review what was done. I need to start creating a tutorial lists and add cards to track tutorials I find relevant to design and development. I will create Tutorial new, viewed and implemented lists that will hold all tutorials viewed. I will also need to comment on the card viewed.</p>
+					<p></p>	
+					<p>I need to stop taking on too many tasks at once and focus on one thing at a time. I tend to take on multiple tasks at once and jump between them as I get time. This led to time being wasted and running out as bringing myself up to speed with what I did days before took up some time and made me rush things in the end leaving no time for proper testing on physical devices to ensure the feature works as intended. Focusing on completing a single task at a time will help me complete tasks within my time constraints and test new features before release. </p>
+					<p>Setting up my trello boards have helped me focus on one task at a time that has given me a new direction I want to take my AR app idea in. During development on AR surface detection I discovered a better way of detecting surfaces by following tutorials on youtube provided by dev_enabled at https://www.youtube.com/channel/UCL1jcpKRApOp_CkW9LkFRKA . I implemented the new feature improvements and found I was detecting surfaces more accurately then the default ARHandheld template offered by the Unreal Engine. I have started experimenting with placing grass on the floor as you walk and turned my living room into a forest. All this was done on extra time I had left after completing my task. This is all time that was made by focus and planning. </p>
+					<p>I need to keep adding cards to lists on trello to continue my development and time management. As soon as I design something, I need to keep adding cards to trello with comments that include references to other relevant lists on the board. This has helped me with time management the past few weeks as I found myself having more time to test features regularly and fix the problem immediately as it arises leaving me with better milestone builds with less bugs and more time for the next milestone to be achieved.</p>
+					<p></p>	
+					<p>Here are the links to my trello boards and my project I am currently working on.</p>
+					<p></p>	
+					<li><a href="https://trello.com/b/Q9PP4m9l/ar-project"> AR Project Trello</a></li>
+					<li><a href="https://trello.com/b/FEewUVEc/app-development-synergies"> Studies Trello</a></li>
+					<li><a href="https://github.com/NicoVDMerweCRJ/ARX-Project.git"> AR Project</a></li>
+					<p></p>						
+					<a href="#Intro"><button type="button">Back To Top</button></a>
+					<p></p>	
+			</div>
+		
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="container">
