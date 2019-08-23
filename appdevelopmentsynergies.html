@@ -65,8 +65,7 @@
 			<div id="Week1" class="container">
 				<!-- Elements -->					
 					<h2>Week 1: Interduction</h2>
-					
-					<h3><u>Contextual Research</u></h3>
+					<h3>The Unreal Engine and ARCore</h3>
 					<p><span class="image left"><img src="App Development Synergies/Week 1/Images/UnrealLogo.jpg" alt="" /></span>My research into my project idea posted for week 1 was centred around the Unreal Engine and how to integrate AR Core features in an application. I found a QuickStart guide to ARCore at <a href="https://developers.google.com/ar/develop/unreal/quickstart"> Unreal Quickstart</a> and followed the guide lines provided by Goolge and the team at Unreal.</p>							
 					<p>My findings where that it was simple to set up the Plugin inside the unreal environment and load a template to play around with and deploy to my testing device. The setup for mobile inside Unreal was a straightforward setup and deployment to mobile was easy and quick.</p>
 					<p>There have been huge improvements in deployment times in the last two releases of the unreal engine. Packaging and deployment have been a huge focus for Epic following the success of Fortnite on mobile and they have started integrating the technology used to optimize and deploy for mobile into the engine and huge feature updates and improvements on mobile is showing.</p>							
@@ -75,18 +74,16 @@
 					<p>I really appreciated how this week’s exercise has made me think a bit outside of what I usually do. It was challenging and getting the blog up and running on github pages was also a great experience in setting up and I see the value of git hub beyond just hosting code repositories, but seeing the potential of hosting a blog or examples of work done on a domain of your choice. </p>							
 					<p>I found out that Mobile has a limit of 75 on Unreal Engine 4 deployment as confirmed in the forums located at: <a href="https://answers.unrealengine.com/questions/482412/want-to-increase-bone-limit-on-mobile-more-than-75.html"> answers.unrealengine.com</a>. It can be increased apparently, but then older devices might not recognize the structure and fail to display the character at all.</p>
 											
-					<h3><u>Project Development</u></h3>
 					<p><span class="image left"><img src="App Development Synergies/Week 1/Images/ARCore.png" alt="" /></span>I will use the Unreal 4.22 engine to design the application and utilize blueprint and C++ for development. I choose Android (26 – Oreo and up) as my platform of choice for this project as it supports Vulkan and Google ARcore which are two core plugins/tools I plan to use. My compiler will be Visual Studio 2018 and all code will be compiled from source code of the Unreal Engine as it will be required during plugin integration.</p>
 					<p>I want to integrate AR into the application and provide a feature where the user can place the fish tank on any surface in a real-world location and then interact with your fish. I will implement this feature using Google ARcore technology that comes as a plugin with the Unreal Engine.</p>
 					<p>Assets needed are created using a combination of Blender and GIMP. Both Blender and gimp are free to use open source and will cover all my animation, modelling and texturing needs for my assets. I will be using only a few assets at first as the focus will be on interaction and AR rather then content at the start of development. 
-Animation will be physics driven for some objects so only basic rigging and bone structures will be required. The two fish will need to be rigged and skinned for animation and a bone structure of 15 bones will be used. Mobile has a limit of 75 on Unreal Engine 4 deployment, but this should not be a issue as assets won’t benefit from a complex one structure for animation.
-Textures will be 2k resolution and all materials are developed in Unreal Engine using the material editor and blueprinting.</p>
+					<p>Animation will be physics driven for some objects so only basic rigging and bone structures will be required. The two fish will need to be rigged and skinned for animation and a bone structure of 15 bones will be used. Mobile has a limit of 75 on Unreal Engine 4 deployment, but this should not be a issue as assets won’t benefit from a complex one structure for animation.
+					<p>Textures will be 2k resolution and all materials are developed in Unreal Engine using the material editor and blueprinting.</p>
 					<p> All design documents are located to view in the link below:
 					<p></p>
 					<a href="https://github.com/NicoVDMerweCRJ/NicoVDMerweCRJ.github.io/tree/master/App%20Development%20Synergies/Week%201/Documents" class="button">GitHub Link</a>
 					<p></p>
 				
-					<h3><u>Coursework</u></h3>
 					<p><span class="image left"><img src="App Development Synergies/Week 1/Images/UIMainMenuDesignFlowChart.jpg" alt="" /></span>I have an idea for an application to that I feel fits into the theme of ”As long as we have each other, we will never run out of problems”.</p>	
 					<p>The application will tell the story of two fish living together in a fish tank. You have control of one fish called Bob and need to stay alive for as long as you can while challenges arise throughout your day. The entire application takes place in one fish tank so minimal assets are required. The focus will be on your interactions with the fish your control.</p>	
 					<p>During the day Steve will be a burden and at night an ally. I wanted to tie the application into the theme “As long as we have each other, we will never run out of problems” by showing how two fish live in a tank. I found the inspiration for my design after staring at my fish tank I have at home. I have 3 fish in the tank and they always fight during the day but huddle up at night. As much as they have one another and need each other to survive, they will always have problems.</p>	 
@@ -108,34 +105,30 @@ Textures will be 2k resolution and all materials are developed in Unreal Engine 
 					<p></p>	
 					<p></p>	
 					<h2>Week 2: Platforms and Tools</h2>
-					
-					<h3><u>Contextual Research</u></h3>
-					<h4><li>UE4 and mobile development</li></h4>			
+					<h3><li>UE4 and mobile development</li></h3>			
 					<p>Unreal and its mobile development environment has made very big strides the past few years. After the release of Fortnite we saw the release of Unreal Engine 4.20 which brought with it over 100 mobile optimizations tools as well as the ability to optimize gameplay across platforms as stated by Tim Slager [reference] T.S. 2018. Exploring Unreal Engine 420’s Mobile Optimizations. August 27. Exploring Unreal Engine 420’s Mobile Optimizations. [Online]. [10 June 2019]. Available from: <a href="https://www.unrealengine.com/en-US/tech-blog/exploring-unreal-engine-4-20-s-mobile-optimizations">www.unrealengine.com/en-US/tech-blog/exploring-unreal-engine-4-20-s-mobile-optimizations</a></p>
 					<p>The blog also includes a Unreal Live Training stream that discuss the numerous optimizations, features and stability improvements the Unreal team has made to the engine and mobile platforms supported while also highlighting how Epic leveraged these tools to ship Fortnite on iOS and Android and overcome technical challenges such as memory, performance and battery life for the application.</p>
 					
-					<h4><li>Repositories</li></h4>
+					<h3><li>Repositories</li></h3>
 					<p><span class="image left"><img src="App Development Synergies/Week 2/Images/perforce-logo.png" alt="" /></span>When researching into repositories I was looking for a solution that can integrate well into the Unreal Engine and handle big file transfers like textures and .fbx that will be included in my project. The two that stood out where GitHub and Perforce.</p>
 					<p>GitHub and perforce have many differences that set them apart from one another.</p>
 					<p>GitHub has a distributed Git model which allows developers to download the source code along with a full version history to their local machine where they can make commits, diffs and merge code fast. Each developer has their own copy of the repository which can be a security risk at big developer companies and make it hard to manage the application data. Typically, the repositories security levels of the project are assigned at a repo level to employees and the projects are broken into several different branches where teams end up dealing with cross repository dependencies that could be a nightmare if not controlled correctly.</p>
 					<p>Perforce Is Centralized has a centralized model that centres around storing everything in one place ensuring developers always have the latest version. All commits from developers, no matter where they sit across the world are done to the same server where the project is located. This provides improved auditability, traceability and communication because checked out work is easily visible to other developers on the team [Reference] Perforce, P. 2019. Git vs Perforce. April 11. How to Choose. [Online]. [12 June 2019]. Available from: <a href="https://www.perforce.com/blog/vcs/git-vs-perforce-how-choose-and-when-use-both">www.perforce.com/blog/vcs/git-vs-perforce-how-choose-and-when-use-both</a></p>
 				
-					<h4><li>AR Images and Objects</li></h4>
+					<h3><li>AR Images and Objects</li></h3>
 					<p><span class="image left"><img src="App Development Synergies/Week 2/Images/ARImage.jpeg" alt=""/></span>I was researching deeper into AR this week and wanted to integrate Augmented images and objects into the application as well. I found that it is possible with Google ARCore and Unreal engine and is quite simple to do as well. Unreal can take images the user loaded into the engine and turn them into smart images the camera will recognize, and actions can be executed on recognition of the images. This gives me the ability to make something interesting in that I would be able to create a companion application with the original that would recognize images and cards that could be used as bonus content or power ups by the user. I found documentation on Augmented Images and how to integrate the feature into Unreal Engine at [Reference] Arcore, G.A. 2019. Augmented Images developer guide for Unreal. February 28. Using Augmented Images. [Online]. [13 June 2019]. Available from: <a href="https://developers.google.com/ar/develop/unreal/augmented-images/guide">https://developers.google.com/ar/develop/unreal/augmented-images/guide</a></p>
 								
-					<h3><u>Project Development</u></h4>
 					<p>Setting up the environment using Unreal and Android works was quick and easy as all SDK downloads required were included with the engine inside the installation directory Epic Games\UE_4.22\Engine\Extras\AndroidWorks.  I continued to get a project template for AR up and running and did my first build for Android mobile on a Galaxy S7 Edge and it worked perfectly without any issues.</p>
 					<p>I have also continued to build out a basic fish tank and got it placed on a flat surface and had the AR track the object and its location. This was simple to execute with Unreal Engine 4.22 and can see the strides they have made when it comes to mobile development.</p> 
 					<p>I decided to load in one image a painting into the art application and see if I could convert it into an Augmented Image. It too wasn’t complicated, and the image was recognized as soon as it came into view of the camera on my mobile device.</p> 
 					<p>My development environment is now set up with AR functioning as intended and Unreal deploying to mobile successfully. I am starting on my basic prototype of the application and creating assets and basic blueprint functionality that would provide the base of my application. I have uploaded my project to my git repository as source control with GitHub is integrated and working with Unreal Engine as well.</p>
 				
-					<h3><u>Coursework</u></h4>
 					<p>I started setting up my development environments and SDK’s to start working on a prototype of the application I want to build. Using the Unreal Engine and developing for mobile Android specifically, I needed to setup the SDK’s and configure my environment inside Unreal engine to be mobile ready and have my repositories linked to my GitHub account.</p>
 					<p>A big discussion the past week was Platform and Tools. What will be used and why? I have decided to stick to the Unreal Engine and Mobile Android development using ARCore from google. 
 					<p>The other topic that came up the past week was Unity vs Unreal. Which engine is the one to use for the project going forward? I have worked on Unity for many years before and work with Unreal Engine atm in my professional career. This has given me a unique outlook on the engines and how they compare with one another.</p>
 					<p>I have chosen to build my application on the Unreal Engine due to the numerous new tools and advancements made in the mobile space. Unity has been the go-to engine for mobile the past few years and has an amazing workflow but can sometimes lack when it comes to quality of light used in scenes/levels. I want to build my knowledge of Unreal and use this small application to test and integrate as many of their new features released especially around AR and mobile deployment.</p>
-								
-					<h3><u>Refrences</u></h4>				
+					
+					<h3><u>Refrences</u></h3>				
 					<li>T.S. 2018. Exploring Unreal Engine 420’s Mobile Optimizations. August 27. Exploring Unreal Engine 420’s Mobile Optimizations. [Online]. [10 June 2019]. Available from: <a href="https://www.unrealengine.com/en-US/tech-blog/exploring-unreal-engine-4-20-s-mobile-optimizations">www.unrealengine.com/en-US/tech-blog/exploring-unreal-engine-4-20-s-mobile-optimizations</a></li>
 					<li>Epic unreal, U.E. 2018. Android Quick Start. July 16. Getting Started. [Online]. [10 June 2019]. Available from: <a href="https://docs.unrealengine.com/en-US/Platforms/Mobile/Android/GettingStarted/index.html">//docs.unrealengine.com/en-US/Platforms/Mobile/Android/GettingStarted/index.html</a></li>						
 					<li>Perforce, P. 2019. Git vs Perforce. April 11. How to Choose. [Online]. [12 June 2019]. Available from: <a href="https://www.perforce.com/blog/vcs/git-vs-perforce-how-choose-and-when-use-both">www.perforce.com/blog/vcs/git-vs-perforce-how-choose-and-when-use-both</a></li>
@@ -146,7 +139,6 @@ Textures will be 2k resolution and all materials are developed in Unreal Engine 
 					<p></p>
 					<a href="https://github.com/NicoVDMerweCRJ/NicoVDMerweCRJ.github.io/tree/master/App%20Development%20Synergies/Week%202">GitHub Week 2 Link</a>
 					<p></p>
-				
 					<p></p>	
 					<a href="#Intro"><button type="button">Back To Top</button></a>
 					<p></p>			
@@ -157,10 +149,8 @@ Textures will be 2k resolution and all materials are developed in Unreal Engine 
 				<!-- Elements -->
 					<p></p>	
 					<p></p>	
-					<h2>Week 3: App Jam</h2>
-					<h3><u>Coursework</u></h3>
-				
-					<h4>TRAPPED!</h4>
+					<h2>Week 3: App Jam</h2>				
+					<h3>TRAPPED!</h3>
 					<p></p>	
 					<div align="center"><iframe width="760" height="515" src="https://www.youtube.com/embed/SsUUyYhOU6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>					</div>
 					<p></p>
@@ -195,7 +185,7 @@ Textures will be 2k resolution and all materials are developed in Unreal Engine 
 					<p></p>	
 					<p></p>	
 					<h2>Week 4: Reflection</h2>
-					<h3><u>Coursework</u></h3>					
+					<h3><u>Being Agile</u></h3>					
 					<p><span class="image left"><img src="App Development Synergies/Week 4/Images/Agile.png" alt=""></span>This week covered reflection and I looked at how Agile software development principles could have been applied to my app jam application. I have worked in Agile development environments for the past few years and do believe in the practices applied such as scrum and being sprint focused. I have seen amazing new ideas come out of doing sprints as well as solutions to big problems that improved projects greatly. Sprints have given me the opportunity in the past to explore new options and grow my skills and creativity by rapidly prototyping new ideas.</p> 
 					<p>Reading up on agile software development I discovered many methods and ways of applying agile in my correct development. I found two practices I am going to take forward into my upcoming projects to help me achieve my outcomes and goals in both design and development.</p>
 					<p>In Juhani Warsta, Pekka Abrahamsson, Outi Salo and Jussi Ronkainen peer-reviewed academic literature paper on Agile Software Development Methods I stumbled upon an agile practise I found very interesting that would help me think about design more efficiently. In section 3.7 Adaptive Software Development they describe different Agile methods of which I focussed on the section 3.9.2 Pragmatic Programming method. </p>
@@ -209,7 +199,7 @@ Textures will be 2k resolution and all materials are developed in Unreal Engine 
 					<li>Always improve your communication skills.</li>
 					<p></p>	
 					<p>My second source is a peer-reviewed academic literature case study by William Herman Morkel Theunissen on Agile software development where I focused on section 2.4.1 Extreme programming (XP). </p>
-					<p>XP is an agile methodology that has the software team comply with well-defined and well circumscribed processes when developing software. These values need to be met before their development methodology is classifiable as XP. The most important of these processes are the four-core values, principles and characteristics XP is based on. The XP agile methodology started developing due to problems faced within software development in the form of applications not meeting the customer expectations, reduced applicability of delivered software, the inability to meet deadlines and schedules.</p>
+					<p><span class="image left"><img src="App Development Synergies/Week 4/Images/agile-project-management-elements-of-agile.png" alt=""></span>XP is an agile methodology that has the software team comply with well-defined and well circumscribed processes when developing software. These values need to be met before their development methodology is classifiable as XP. The most important of these processes are the four-core values, principles and characteristics XP is based on. The XP agile methodology started developing due to problems faced within software development in the form of applications not meeting the customer expectations, reduced applicability of delivered software, the inability to meet deadlines and schedules.</p>
 					<p>XP may be regarded as the most published agile methodology It is based on a series of values and practices that are applied to design and quick iterations of sprints.</p>
 					<p>The four core values of XP are:</p>
 					<li>Communication: This involves keeping everyone on the project informed on everything regarding the project.</li>
@@ -231,8 +221,6 @@ Textures will be 2k resolution and all materials are developed in Unreal Engine 
 					<li>On-site customer: A user or client who can answer and address questions as they arise from design or development should be made a part of the team when possible.</li>
 					<li>Coding standards: Code is written according to a selected standard to ensure uniformness and optimal communication.</li>
 					<p></p>	
-					
-					<h3><u>Blog Post</u></h3>
 					<h4>Reflecting</h4>
 					<p><span class="image left"><img src="App Development Synergies/Week 4/Images/Pathfinding.jpg" alt=""></span>Reflecting upon the App jam of week three I noticed that I did apply some of the practices involved in Agile development.  I found the practice of Extreme programming (XP) as I applied the planning game and simple design characteristics during my design phase and refactoring continuous integration along with coding standards in my development phase of the app jam. As issues in the application arose, I found myself using Pragmatic programming methods as thinking solutions instead of excuses, Fix bugs and issues as you see them, introducing change where you feel it is necessary to help me face the barriers ahead and overcome them.			
 					<p>During the app jam I did practise Agile methods but didn’t always focus on all the characteristics equally and didn’t see how it all comes together. In my continuation of the app jam project across the study block I will apply Extreme programming core values when thinking about design and creating new features for my applications as it grows in complexity. 			
@@ -252,7 +240,7 @@ Textures will be 2k resolution and all materials are developed in Unreal Engine 
 					<h3><u>Refrences</u></h3>
 					<li>Juhani Warsta, Pekka Abrahamsson, Outi Salo, Jussi Ronkainen, J., 2002. Agile Software Development Methods. Agile Software Development Methods: Review and Analysis, [Online]. 1, 72, 88. Available at: <a href="https://pdfs.semanticscholar.org/048b/c875df549a2d1fda6d34e98fab5f72121028.pdf">https://pdfs.semanticscholar.org/048b/c875df549a2d1fda6d34e98fab5f72121028.pdf</a>[Accessed 29 June 2019].</li>	
 					<li>Herman Morkel Theunissen, W., 2003. A case-study based assessment of Agile software development. A case-study based assessment of Agile software development, [Online]. 2.4, 22. Available at: <a href="https://pdfs.semanticscholar.org/b251/380a292baa020608613a2f1e8d5e293c2de5.pdf">https://pdfs.semanticscholar.org/b251/380a292baa020608613a2f1e8d5e293c2de5.pdf </a>[Accessed 29 June 2019].	</li>
-					
+					<li>2018. Agile Methodology, Stigasoft. Available at: http://www.stigasoft.com/agile-scrum-methodology.html [Accessed 20, 2019].</li>
 					<p></p>				
 					<p></p>	
 					<a href="#Intro"><button type="button">Back To Top</button></a>
@@ -264,45 +252,45 @@ Textures will be 2k resolution and all materials are developed in Unreal Engine 
 				<!-- Elements -->
 					<p></p>	
 					<p></p>	
-					<h2>Week 5: Types of App</h2>	
-					<h3><u>Corsework</u></h3>					
-					<h4>Rethink how things are done!</h4>			
+					<h2>Week 5: Types of App</h2>					
+					<h3>Rethink how things are done!</h3>			
 					<p>This week I completed my pathfinding for my fish and made a particle effect to solve my food issue as well. I learned from previous practices in the App Jam that I need to run my project on my device more often and started testing on my Android s7 edge and it all worked perfectly. I need to work on my design and time management as I have learned from my personal case study and the app jam, so I stopped everything I was doing and looked at my planning and design again to improve how I do things and why. I created a Trello board for me to manage my goals and time better and looked at what I wanted to achieve and how to get there being agile.</p>
 					<p></p>	
-					<p>I also looked at where my application fits into the many types of apps found in the marketplaces so that I know where my idea fits in and that I am on par with what I intended to build. I see my app as gamification. Although my current design isn’t final and the features I am working on currently can be used in many different designs. I have always seen my application being built around using AR technologies that the Unreal game engine provide to solve a real-world problem by educating users and making them experience the world around them in new interactive ways.</p>
+					<p><span class="image left"><img src="App Development Synergies/Week 5/Images/social-media-apps-2-shutterstock-650.jpg" alt=""></span>I also looked at where my application fits into the many types of apps found in the marketplaces so that I know where my idea fits in and that I am on par with what I intended to build. I see my app as gamification. Although my current design isn’t final and the features I am working on currently can be used in many different designs. I have always seen my application being built around using AR technologies that the Unreal game engine provide to solve a real-world problem by educating users and making them experience the world around them in new interactive ways.</p>
 					<p>I need to go back and make sure things are on the right path and rethink scope and design. I want to have all my trello boards set with goals and ideas that fall under the new agile principles I have learned about in <a href="#Week4"><li>Week 4 : Reflection</a>.</p>
 					<p>I also want to have my design to include flowcharts of how code is implemented and the tasks I will need to complete to achieve this.</p>
 					<p>I have completed my draft copy of my findings that will be presented next week as my personal case study on agile and time management objectives and failures I had during the App Jam.</p>
 					<li>Download Link: <a href="https://github.com/NicoVDMerweCRJ/NicoVDMerweCRJ.github.io/blob/master/App%20Development%20Synergies/Week%205/Documents/Personal%20Case%20Study%20Draft.docx"> Personal Case Study Draft</a></li>
 					
-					<p></p>	
-					<h3><u>Blog Post</u></h3>
+					<h3><u>Refrences</u></h3>
+					<li>D.G., 2019. Who would supply apps for a Huawei OS, Mobile Worlds Live. Available at: https://www.mobileworldlive.com/apps/blog-apps/blog-who-would-supply-apps-for-a-huawei-os/ [Accessed 5, 2019].</li>
+					<p></p>				
 					<p></p>	
 					<a href="#Intro"><button type="button">Back To Top</button></a>
 					<p></p>	
-			</div>
+				
+					</div>
 		
 		<!-- Week 6 -->
 			<div id="Week6" class="container">
 				<!-- Elements -->
 					<p></p>	
 					<p></p>	
-					<h2>Week 6: Creative App Commerce</h2>
-					
-					<h3><u>Corsework</u></h3>				
-					<h4><u>Week 6 Sprint Goals</u></h4>
+					<h2>Week 6: Creative App Commerce</h2>				
+					<h3><u>Sprint Goals</u></h3>
 					<p>My sprint goals have mostly consisted development tasks for of my AR application prototype, but after the personal case study I started improving my approach on projects and management by using tools like trello to manage my project and study tasks. I am happy with the approach I took in creating my boards on trello for both the App Development Synergies module and my AR project. I started populating the boards with tasks and goals that I planned out and felt the impact on time management immediately as I had clear goals now laid out and I knew what to achieve.</p>	
 					<p>I could have included and tracked my research in my trello boards as I found myself finding tutorials that where relevant to Unreal Engine AR Blueprints and not documenting the links and made it hard to return to the tutorial later to review what was done. I need to start creating a tutorial lists and add cards to track tutorials I find relevant to design and development. I will create Tutorial new, viewed and implemented lists that will hold all tutorials viewed. I will also need to comment on the card viewed.</p>	
-					<p>I need to stop taking on too many tasks at once and focus on one thing at a time. I tend to take on multiple tasks at once and jump between them as I get time. This led to time being wasted and running out as bringing myself up to speed with what I did days before took up some time and made me rush things in the end leaving no time for proper testing on physical devices to ensure the feature works as intended. Focusing on completing a single task at a time will help me complete tasks within my time constraints and test new features before release. </p>	
+					<p><span class="image left"><img src="App Development Synergies/Week 6/destination-1285851_1280.png" alt=""></span>I need to stop taking on too many tasks at once and focus on one thing at a time. I tend to take on multiple tasks at once and jump between them as I get time. This led to time being wasted and running out as bringing myself up to speed with what I did days before took up some time and made me rush things in the end leaving no time for proper testing on physical devices to ensure the feature works as intended. Focusing on completing a single task at a time will help me complete tasks within my time constraints and test new features before release. </p>	
 					<p>Setting up my trello boards have helped me focus on one task at a time that has given me a new direction I want to take my AR app idea in. During development on AR surface detection I discovered a better way of detecting surfaces by following tutorials on youtube provided by dev_enabled at https://www.youtube.com/channel/UCL1jcpKRApOp_CkW9LkFRKA . I implemented the new feature improvements and found I was detecting surfaces more accurately then the default ARHandheld template offered by the Unreal Engine. I have started experimenting with placing grass on the floor as you walk and turned my living room into a forest. All this was done on extra time I had left after completing my task. This is all time that was made by focus and planning.</p>	
 					<p>I need to keep adding cards to lists on trello to continue my development and time management. As soon as I design something, I need to keep adding cards to trello with comments that include references to other relevant lists on the board. This has helped me with time management the past few weeks as I found myself having more time to test features regularly and fix the problem immediately as it arises leaving me with better milestone builds with less bugs and more time for the next milestone to be achieved.</p>						
 					<p>Here are the links to my trello boards and my project I am currently working on.</p>	
 					<li>AR Project Trello link: <a href="https://trello.com/b/Q9PP4m9l/ar-project"> AR Project</a></li>		
 					<li>Studies Trello link: <a href="https://trello.com/b/FEewUVEc/app-development-synergies"> App Development Synergies</a></li>
-					<li>Project Link: <a href="https://github.com/NicoVDMerweCRJ/ARX-Project.git"> ARX Project</a></li>					
+					<li>Project Link: <a href="https://github.com/NicoVDMerweCRJ/ARX-Project.git"> ARX Project</a></li>								
 					
-					<p></p>	
-					<h3><u>Blog Post</u></h3>				
+					<h3><u>Refrences</u></h3>
+					<li>Ockerman, S., 2016. Creating Good Sprint Goals, Agile Shocks. Available at: https://www.agilesocks.com/creating-good-sprint-goals/ [Accessed July 3, 2019].</li>
+					<p></p>				
 					<p></p>	
 					<a href="#Intro"><button type="button">Back To Top</button></a>
 					<p></p>	
@@ -314,18 +302,20 @@ Textures will be 2k resolution and all materials are developed in Unreal Engine 
 					<p></p>	
 					<p></p>	
 					<h2>Week 7: How Do I Get To Know the Audience for My App?</h2>
-					<h3><u>Coursework</u></h3>
-					<p>I set out a Sprint goal for myself this week.  My Sprint goal is to make a functioning prototype of the User Interface (UI) for my AR application. Achieving this goal, I will be using Gimp to make textures. I will also use the Unreal Engine’s Widget and blueprint systems to do layout and development. Having this goal achieved and the UI setup will not only get me to start thinking about design around UX, it will also provide me with a tool to use during debugging while developing features by letting me reset and debug during runtime. This will save me time on development by helping to find bugs in my application.</p>
+					<h3><u>Sprint Goal Review</u></h3>
+					<p><span class="image left"><img src="App Development Synergies/Week 7/business-advantage.jpg" alt=""></span>I set out a Sprint goal for myself this week.  My Sprint goal is to make a functioning prototype of the User Interface (UI) for my AR application. Achieving this goal, I will be using Gimp to make textures. I will also use the Unreal Engine’s Widget and blueprint systems to do layout and development. Having this goal achieved and the UI setup will not only get me to start thinking about design around UX, it will also provide me with a tool to use during debugging while developing features by letting me reset and debug during runtime. This will save me time on development by helping to find bugs in my application.</p>
 					<p>The functionality of the UI will be minimal and will consist of 5 buttons. A menu button will be included on the General User Interface (GUI).  The UI will consist of menu, back, start and quit buttons that provide the basic functionality to the user. I will know that my sprint goal is achieved when I can start, exit and reset my application using a UI at runtime on my mobile device. I will use my AR application Trello board to track my progress and time. I have setup a Sprint task that contains my current sprint goal as a Card and tasks that need to be completed and time spent that will help me keep track of the time limit using checklists.</p>
 					<p>My backlog list of items to achieve the sprint goal is arranged from high priority to low priority. Creating button textures and doing the layout will be high priority as I will need to have these items completed before I can prototype the UI. This shouldn’t take more than 2 hours as I will use gimp to create a single button to use across the UI and add text and do my layout inside Unreal Engine using widgets.</p>
 					<p>Next on the list is developing the functionality to the UI and should take no longer than 3 hours. During the development of the UI functionality continuous testing will occur inside the editor. The final task of my sprint goal is physical device testing. This process should not take longer than 1 hour as continuous testing during development should help produce no errors or bugs.</p>
 					<p>I have set the sprint time limit to 2 weeks and limited the hours spent to 4 hours per week. This would be enough time to complete the tasks that need to be done and complete the sprint goal as I have done UI prototyping before using the Unreal Engine.  The total of 6 hours it should take to complete my tasks set out will leave me with 2 hours for new tasks and problems that arise making the sprint goal achievable within the 8-hour limit. All tasks of the sprint could change during development. As new tasks arise, I will add them and include priority while considering the time limit and the final goal I want to achieve.</p>
 					<p></p>	
-					<li>AR Project Trello link: <a href="https://trello.com/b/Q9PP4m9l/ar-project"> AR Project</a></li>
+					<li>AR Project Trello link: <a href="https://trello.com/b/Q9PP4m9l/ar-project"> AR Project</a></li>			
 					
-					<p></p>
-					<h3><u>Blog Post</u></h3>				
-					<p></p>		
+					<h3><u>Refrences</u></h3>
+					<li>Clark, B., 2014. 5 Ways a Minimum Viable Audience Gives You an Unfair Business Advantage, copyblogger. Available at: https://www.copyblogger.com/unfair-business-advantage/ [Accessed August 19, 2019].</li>
+					
+					<p></p>				
+					<p></p>	
 					<a href="#Intro"><button type="button">Back To Top</button></a>
 					<p></p>	
 			</div>
@@ -335,24 +325,25 @@ Textures will be 2k resolution and all materials are developed in Unreal Engine 
 				<!-- Elements -->
 					<p></p>	
 					<p></p>	
-					<h2>Week 8: What is Creativity?</h2>
-					
-					<h3><u>Corsework</u></h3>
-					<p>I started to take new direction with my application this week as I complete my sprint goal I set out for myself. I started doing research into applications that could help me achieve my goal of planning out the UI before developing and implementing it into my application.</p>	
+					<h2>Week 8: What is Creativity?</h2>		
+					<h3><u>Spring Goal</u></h3>
+					<p><span class="image left"><img src="App Development Synergies/Week 8/BarryOvereem11Advatanges.jpg" alt=""></span>I started to take new direction with my application this week as I complete my sprint goal I set out for myself. I started doing research into applications that could help me achieve my goal of planning out the UI before developing and implementing it into my application.</p>	
 					<p>I chose Adobe XD for its Responsive Resize feature that automatically adjusts and sizes images as and layouts of my boards to screen sizes. This feature helps my UI stay flexible and responsive as well as the ability to adapt and scale to the different mobile screen sizes available. Adobe XD also works very well in prototyping the UI by wireframing and creating simple interactive click through prototypes. This helps me track the flow of my UI and design smart around functionality. </p>	
 					<p>I found using Adobe XD quite hard due to the workflow being so much different from other software I am used to using like Maya and the Unreal Engine. I found tutorials at  https://helpx.adobe.com/africa/xd/tutorials.html done by the adobe team that I could follow to get myself doing the basics. </p>	
 					<p>During the process of making my boards I found that not only do I have a lack of understanding around planning UI design and creating prototypes, but learning this skill and applying it using Adobe XD will require me to learn more about the program itself and designs done by others.</p>	
 					<p>Investing time into Adobe XD will help me learn an important skill I require for application development in the future. I need to learn to plan and create my UI and UX designs inside Adobe XD. I will also need to start looking at other UI designs and learn from the problems they faced developing for the different applications and platforms available on the market. </p>	
-					<p>I will achieve these goals by continuing to view at least two tutorials a week from https://helpx.adobe.com/africa/xd/tutorials.html and build my knowledge of how to use Adobe XD to its full potential and create my own prototypes and designs for application I want to design in the future. I also want to take 60 minutes a week to explore interesting UI designs done by other AR applications on the market. This will help me grow my knowledge of different UI, what challenges they faced and how to overcome them using design that is flexible and adaptive.</p>	
+					<p><span class="image left"><img src="App Development Synergies/Week 8/goal.jpg" alt=""></span>I will achieve these goals by continuing to view at least two tutorials a week from https://helpx.adobe.com/africa/xd/tutorials.html and build my knowledge of how to use Adobe XD to its full potential and create my own prototypes and designs for application I want to design in the future. I also want to take 60 minutes a week to explore interesting UI designs done by other AR applications on the market. This will help me grow my knowledge of different UI, what challenges they faced and how to overcome them using design that is flexible and adaptive.</p>	
 					<p>I want to be able to design and create prototypes of my own UI design by the end of this module. I’m not aiming to be a professional in the field of Adobe XD and UI prototyping, but to be able to create a basic design, plan and UI layout. Understanding this process will help me plan future applications UI accurately and make the development process much easier and leave me with less roadblocks and issues that may arise from a lack of planning ahead.</p>	
 					<p>I know I have achieved this goal set out when I am able to create and prototype my UI ideas inside Adobe XD without having to look at tutorials for help. It will also be a clear indicator that I have achieved what I set out to do when I refer to my Adobe XD designs with more details and functionality documented rather than my simple drawings and basic planning as before.</p>	 
 					<p>By following the tutorials and lessons provided by Adobe on XD I can achieve this goal within the time set out. In two weeks, I want to have a simple example of my UI completed in Adobe XD and make sure to continue to add to it as it grows in complexity. I want to have a basic UI layout completed in four weeks that I can follow to improve my UI prototype as it stands.</p>	
 					
-					<p></p>
-					<h3><u>Blog Post</u></h3>
+					<h3><u>Refrences</u></h3>
+					<li>Overeem, B., 2016. Scrum, Scrum.org. Available at: https://www.scrum.org/resources/blog/11-advantages-using-sprint-goal [Accessed July 20, 2019].</li>
+					<li>waseembukhari , 2012. Waseembukhari's Blog, Waseembukhari's Blog. Available at: https://waseembukhari.wordpress.com/2012/07/16/sprint-g-o-a-l/ [Accessed August 20, 2019].</li>	
+					<p></p>				
 					<p></p>	
 					<a href="#Intro"><button type="button">Back To Top</button></a>
-					<p></p>		
+					<p></p>	
 			</div>
 		
 		<!-- Week 9 -->
@@ -361,10 +352,8 @@ Textures will be 2k resolution and all materials are developed in Unreal Engine 
 					<p></p>	
 					<p></p>	
 					<h2>Week 9 : Emerging Tech</h2>
-					
-					<h3><u>Corsework</u></h3>
-					<h3><u>Sprint Goal</u></h3>
-					<p>After reading the Articles Sprint Planning Meeting and Task Boards I created a new Trello board that focuses specifically on my sprints to help me keep track of what I want to achieve and how I want to do so. For my new sprints goal, I created a user story to keep me aligned with what I need to achieve while keeping the way I achieve the goal agile and flexible. My user story is as follows “As a user, I want to be able to see what my backyard would look like if it was covered in grass”. </p>
+					<h3><u>Sprint Goal Review</u></h3>
+					<p><span class="image left"><img src="App Development Synergies/Week 9/1_vzCPKrGqBtZ0NLeDb08X7Q.jpeg" alt=""></span>After reading the Articles Sprint Planning Meeting and Task Boards I created a new Trello board that focuses specifically on my sprints to help me keep track of what I want to achieve and how I want to do so. For my new sprints goal, I created a user story to keep me aligned with what I need to achieve while keeping the way I achieve the goal agile and flexible. My user story is as follows “As a user, I want to be able to see what my backyard would look like if it was covered in grass”. </p>
 					<p>To accomplish this goal, I have created lists inside my new Sprint Trello board. These include Story, To Do, In Process, To Verify and Done. What I want to accomplish is to be able to take a floor area and detect its surface using my ARX project and have the user place grass on the area.  I want to achieve this goal within two weeks and have set aside three hours a week for my sprint. </p>
 					<p>I want to achieve this goal as it will start the main functionality of changing surfaces and environments. This is the main functionality of my application and will provide me with a simple framework to build on and extend my library of surfaces and object that can be placed in the user’s surroundings.</p>
 					<p>I will know I have achieved my sprint goal when I am able to change a detected surface material to soil as well as place grass on top of the soil using a basic library UI on a physical device using my ARX application. This goal is achievable due to the past UI and surface detection sprints that I completed successfully in weeks six and seven. The UI sprint of week seven has made it simple for me to add new UI functions quickly and my surface detection sprint of week six gave me accurate surface detection and made it possible to place objects and change materials of the surface detection grid created when surfaces are detected in my ARX Application.</p>
@@ -373,12 +362,13 @@ Textures will be 2k resolution and all materials are developed in Unreal Engine 
 					<p>I have started my sprint during the planning phase that happened on Thursday 1st of August and will complete the goal by 11th of August. I have built UI library systems before and with the UI base I have completed in my earlier sprints, I will be able to quickly add new functionality and expand into a library containing materials and objects.</p>
 					<p>I know I can complete this quickly as I will keep it simple and only do one object and one material the user can place. I already have a ground material with textures and low poly mobile friendly grass that can be used in the sprint and have already set up my touch inputs to be able to instantiate objects on the surface of my grid created by my ARX application surface detection.</p>
 					<p>I am very excited to start creating some simple inputs for the user to interact with the environment around them using my ARX application. </p>
-
-					<p></p>
-					<h3><u>Blog Post</u></h3>
+					
+					<h3><u>Refrences</u></h3>
+					<li>Ageling, W., 2018. Are you serious? — episode 26, Serious Scrum. Available at: https://medium.com/serious-scrum/we-didnt-meet-the-sprint-goal-let-s-extend-the-sprint-4fdea964ff85 [Accessed August 20, 2019].</li>
+					<p></p>				
 					<p></p>	
 					<a href="#Intro"><button type="button">Back To Top</button></a>
-					<p></p>		
+					<p></p>	
 			</div>
 		
 		<!-- Footer -->
